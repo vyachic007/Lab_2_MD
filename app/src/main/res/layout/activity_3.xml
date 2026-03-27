@@ -18,6 +18,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_toStartOf="@id/centerLine"
+        android:layout_marginEnd="4dp"
         android:text="@string/left_50" />
 
     <Button
@@ -27,18 +28,23 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@id/centerLine"
+        android:layout_marginStart="4dp"
         android:text="@string/right_50" />
+
+
+
 
     <Button
         android:id="@+id/btnCenter"
-        android:layout_width="100dp"
+        android:layout_width="92dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:maxLines="1"
         android:text="@string/center" />
 
     <Button
         android:id="@+id/btnCenterLeft"
-        android:layout_width="110dp"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_toStartOf="@id/btnCenter"
@@ -48,13 +54,17 @@
 
     <Button
         android:id="@+id/btnCenterRight"
-        android:layout_width="110dp"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_toEndOf="@id/btnCenter"
         android:layout_marginStart="8dp"
         android:maxLines="1"
         android:text="@string/center_right" />
+
+
+
+
 
     <Button
         android:id="@+id/btnBottom"

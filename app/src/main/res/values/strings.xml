@@ -13,4 +13,8 @@
     <string name="center">Center</string>
     <string name="right_50">Right 50%</string>
     <string name="left_50">Left 50%</string>
+    <string name="button7">Button7</string>
+    <string name="button6">Button6</string>
+    <string name="button5">Button5</string>
+    <string name="button4">Button4</string>
 </resources>
