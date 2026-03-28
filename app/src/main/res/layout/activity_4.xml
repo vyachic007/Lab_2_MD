@@ -16,7 +16,6 @@
         android:paddingStart="24dp"
         android:paddingEnd="24dp"
         android:paddingTop="14dp"
-        android:paddingBottom="14dp"
-        app:backgroundTint="@null" />
+        android:paddingBottom="14dp" />
 
 </RelativeLayout>
