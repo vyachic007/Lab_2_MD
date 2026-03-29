@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    android:padding="16dp">
+    android:padding="26dp">
 
     <View
         android:id="@+id/centerLine"
@@ -36,15 +36,14 @@
 
     <Button
         android:id="@+id/btnCenter"
-        android:layout_width="92dp"
+        android:layout_width="91dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:maxLines="1"
         android:text="@string/center" />
 
     <Button
         android:id="@+id/btnCenterLeft"
-        android:layout_width="120dp"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_toStartOf="@id/btnCenter"
@@ -54,7 +53,7 @@
 
     <Button
         android:id="@+id/btnCenterRight"
-        android:layout_width="120dp"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_toEndOf="@id/btnCenter"

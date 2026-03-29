@@ -4,7 +4,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#000000"
-    android:padding="16dp">
+    android:paddingTop="45dp"
+    android:paddingBottom="45dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -76,6 +79,9 @@
             android:layout_weight="1" />
     </LinearLayout>
 
+
+
+
     <Space
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -84,14 +90,11 @@
 
 
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center_vertical"
-        android:baselineAligned="false">
+        android:gravity="center_vertical">
 
         <Button
             android:layout_width="0dp"

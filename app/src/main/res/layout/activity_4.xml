@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:background="@drawable/rounded_button"
-        android:text="New Button"
+        android:text="@string/new_button"
         android:textColor="#FFFFFF"
         android:paddingStart="24dp"
         android:paddingEnd="24dp"
